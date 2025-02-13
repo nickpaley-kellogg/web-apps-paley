@@ -1,0 +1,21 @@
+<h1>Dice Game!</h1>
+
+<%= die1 = rand(1..6) %>
+
+
+<p> 
+<img src="/images/dice/<%= die1 %>.svg" alt="">
+</p>
+
+<%= die2 = rand(1..6) %>
+
+<p> 
+<img src="/images/dice/<%= die2 %>.svg" alt="">
+</p>
+
+
+<p> Your random dice roll results are: <%= die1 + die2 %> </p>
+
+<p>
+<a href=/dice>Roll Again!</a>
+</p>
